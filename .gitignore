@@ -1,0 +1,23 @@
+# Data - 数据文件夹不应该被上传
+data/
+a_npytopng/
+
+# Python virtual environment - 虚拟环境不应该被上传
+venv/
+.env/
+env/
+*.env
+
+# Python cache files - 缓存文件
+__pycache__/
+*.pyc
+
+# IDE and OS specific files - 操作系统或IDE自动生成的文件
+.idea/
+.vscode/
+.DS_Store
+
+# Model checkpoints - 模型文件通常太大，不适合上传
+*.pth
+*.pt
+work_dir/

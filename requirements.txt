@@ -1,0 +1,12 @@
+numpy
+matplotlib
+scikit-image
+SimpleITK>=2.2.1
+nibabel
+tqdm
+scipy
+opencv-python
+PyQt5
+monai
+segment-anything-py
+connected-components-3d
